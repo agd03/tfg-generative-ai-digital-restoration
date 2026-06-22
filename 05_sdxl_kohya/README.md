@@ -25,8 +25,9 @@ La carpeta incluye:
 - Evolución de la tasa de aprendizaje de la U-Net.
 - Comparativas visuales para los motivos del ángel, el león y la abadía.
 
-## Limitación
+## Reproducibilidad
 
-Esta carpeta contiene los resultados seleccionados de la experimentación, pero no incluye todavía los scripts de Kohya, los archivos de configuración del entrenamiento, los pesos LoRA finales ni el dataset curado utilizado para el ajuste.
+La configuración y el seguimiento de los experimentos se realizaron mediante la interfaz de TensorBoard, por lo que no se utilizaron scripts independientes para automatizar el entrenamiento.
 
-Por tanto, permite revisar los resultados obtenidos, pero no reproducir de forma autónoma el entrenamiento LoRA.
+Esta carpeta conserva las muestras, curvas y comparativas exportadas durante la experimentación. No incluye los pesos LoRA finales ni el dataset curado utilizado para el ajuste, por lo que permite revisar los resultados obtenidos, aunque no reproducir de forma autónoma el entrenamiento completo.
+
