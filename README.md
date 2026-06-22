@@ -121,9 +121,10 @@ Resultados de los experimentos de ajuste LoRA sobre SDXL para generar variantes 
 * `curves/`: evolución de la pérdida y de la tasa de aprendizaje.
 * `comparative/`: comparativas visuales generadas para distintos motivos del mural.
 
-## Limitación de reproducibilidad
+## Reproducibilidad
 
-Esta carpeta contiene los resultados seleccionados, pero no incluye actualmente los scripts de Kohya, la configuración de entrenamiento, los pesos LoRA finales ni el dataset curado utilizado para el ajuste.
+La configuración y el seguimiento de los experimentos se realizaron mediante la interfaz de TensorBoard, por lo que no se utilizaron scripts independientes para automatizar el entrenamiento.
 
-Por tanto, su contenido permite revisar los resultados experimentales, pero no reproducir de forma autónoma el entrenamiento LoRA. Para completar la entrega reproducible, será necesario añadir esos elementos.
+Esta carpeta conserva las muestras, curvas y comparativas exportadas durante la experimentación. No incluye los pesos LoRA finales ni el dataset curado utilizado para el ajuste, por lo que permite revisar los resultados obtenidos, aunque no reproducir de forma autónoma el entrenamiento completo.
+
 
