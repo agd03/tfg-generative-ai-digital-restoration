@@ -1,0 +1,14 @@
+Fecha: 20251103_200331
+DEVICE=cuda:0
+IMAGE_SIZE=128
+BATCH_SIZE=32
+EPOCHS=100
+LR_G=0.0005
+LR_D=0.0001
+LAMBDA_ADV=0.01
+LAMBDA_HOLE=6.0
+LAMBDA_VALID=1.0
+BASE_CH=64
+DROPOUT=0.3
+Discriminator=condicional (cond[4ch] + img[3ch] → 7ch)
+Loss=LSGAN (MSE) + L1(hole, valid)

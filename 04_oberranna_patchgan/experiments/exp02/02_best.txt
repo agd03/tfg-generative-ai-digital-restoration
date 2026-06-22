@@ -1,0 +1,4 @@
+best_epoch = 21
+best_criterion = validation_total_loss
+loss_mode = gan
+best_value = 1.1642927655151911

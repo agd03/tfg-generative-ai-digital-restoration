@@ -1,0 +1,18 @@
+Fecha: 20251112_195104
+        WARMUP_EPOCHS=5
+        DEVICE=cuda:0
+        IMAGE_SIZE=128
+        BATCH_SIZE=32
+        EPOCHS=20
+        LR_G=0.0005
+        LR_D=0.0001
+        LAMBDA_ADV=0.01
+        LAMBDA_HOLE=3.0
+        LAMBDA_VALID=1.0
+        LAMBDA_VGG=0.05
+        LAMBDA_EDGE=0.2
+        BASE_CH=64
+        DROPOUT=0.0
+        Discriminator=condicional (cond[4ch] + img[3ch] → 7ch)
+        Loss = LSGAN (MSE) + L1(hole, valid) + perceptual(VGG16)
+        

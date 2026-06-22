@@ -1,0 +1,18 @@
+Comparación controlada de AFHQ Cats
+
+Imágenes utilizadas:
+- data_cats/cat_00083.jpg
+- data_cats/cat_00106.jpg
+- data_cats/cat_04345.jpg
+- data_cats/cat_05519.jpg
+
+Semillas de máscara:
+- 101
+- 202
+- 303
+- 404
+
+Experimentos:
+- AFHQ--R01: lambda_recon=5.0, checkpoint=exp01/G_epoch_200.pth
+- AFHQ--R02: lambda_recon=3.0, checkpoint=exp02/G_epoch_200.pth
+- AFHQ--R03: lambda_recon=10.0, checkpoint=exp03/G_epoch_200.pth

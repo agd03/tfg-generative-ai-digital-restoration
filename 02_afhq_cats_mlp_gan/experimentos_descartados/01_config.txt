@@ -1,0 +1,7 @@
+data_root = data/afhq_cats
+img_size = 128
+batch_size = 16
+num_epochs = 100
+lr_G = 0.0002
+lr_D = 0.0002
+lambda_recon = 10.0

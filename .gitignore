@@ -1,0 +1,19 @@
+# Archivos comprimidos y datos de partida
+*.zip
+
+# Pesos y checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Cachés y entornos locales
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Archivos del sistema y editores
+.DS_Store
+.vscode/
+.idea/
